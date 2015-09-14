@@ -23,6 +23,10 @@ public class Kata1 {
         System.out.println(mipersona.getName());
         System.out.println(mipersona.getBirthday());
         System.out.println(mipersona.getAge());
+        Person mipersona1 = new Person("Juan", new Date(64, 7, 3));
+        System.out.println(mipersona1.getName());
+        System.out.println(mipersona1.getBirthday());
+        System.out.println(mipersona1.getAge());
 
         System.out.println("Fin ");
     }
