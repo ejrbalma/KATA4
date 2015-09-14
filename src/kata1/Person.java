@@ -21,6 +21,8 @@ public class Person {
     }
     
     public int getAge(){
-        return 0;
+        Date today = new Date();
+        int age = (int) ((today.getTime()-birthdya.getTime())/(1000*60*60*24*365.25));
+        return age;
     }
 }
