@@ -18,10 +18,10 @@ public class Kata1 {
      */
     public static void main(String[] args) {
 
-        System.out.println("Inici");
+        System.out.println("Inicio");
         Person mipersona = new Person("Enrique", new Date(69, 5, 2));
         System.out.println(mipersona.getName());
-        System.out.println(mipersona.getBirthdya());
+        System.out.println(mipersona.getBirthday());
         System.out.println(mipersona.getAge());
 
         System.out.println("Fin ");
